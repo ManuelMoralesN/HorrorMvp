@@ -1544,3 +1544,60 @@ FPackageName: Skipped package /Game/HorrorEngine/Maps/Overview_BuiltData has a v
 [2025.12.03-17.18.29:827][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7627.998047
 [2025.12.03-17.18.30:827][871]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.03-17.18.30:827][871]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7628.665039, Update Interval: 356.863312
+[2025.12.03-17.25.24:238][111]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8042.407227
+[2025.12.03-17.25.25:239][114]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.03-17.25.25:239][114]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8043.076172, Update Interval: 334.851532
+[2025.12.03-17.31.30:630][210]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8408.802734
+[2025.12.03-17.31.31:630][213]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.03-17.31.31:630][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8409.470703, Update Interval: 343.043915
+[2025.12.03-17.32.10:308][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2025.12.03-17.32.10:343][329]LogStall: Shutdown...
+[2025.12.03-17.32.10:343][329]LogStall: Shutdown complete.
+[2025.12.03-17.32.10:368][329]LogSlate: Window 'HorrorEngineSE - Unreal Editor' being destroyed
+[2025.12.03-17.32.10:416][329]Cmd: QUIT_EDITOR
+[2025.12.03-17.32.10:416][330]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.03-17.32.10:419][330]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.03-17.32.10:419][330]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.03-17.32.10:419][330]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.03-17.32.10:441][330]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.12.03-17.32.10:441][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.03-17.32.10:447][330]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.03-17.32.10:447][330]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.03-17.32.10:451][330]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.03-17.32.10:452][330]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.12.03-17.32.10:452][330]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.12.03-17.32.10:452][330]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.12.03-17.32.10:453][330]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.03-17.32.10:453][330]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.03-17.32.10:453][330]LogAudio: Display: Audio Device unregistered from world 'Overview'.
+[2025.12.03-17.32.10:453][330]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.03-17.32.10:453][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.12.03-17.32.10:458][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.12.03-17.32.10:465][330]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.03-17.32.10:465][330]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.03-17.32.10:466][330]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.03-17.32.10:467][330]LogExit: Preparing to exit.
+[2025.12.03-17.32.10:496][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.12.03-17.32.11:091][330]LogEditorDataStorage: Deinitializing
+[2025.12.03-17.32.11:214][330]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.03-17.32.11:235][330]LogExit: Editor shut down
+[2025.12.03-17.32.11:240][330]LogExit: Transaction tracking system shut down
+[2025.12.03-17.32.11:452][330]LogExit: Object subsystem successfully closed.
+[2025.12.03-17.32.11:517][330]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.03-17.32.12:223][330]LogMemoryProfiler: Shutdown
+[2025.12.03-17.32.12:223][330]LogNetworkingProfiler: Shutdown
+[2025.12.03-17.32.12:223][330]LoadingProfiler: Shutdown
+[2025.12.03-17.32.12:223][330]LogTimingProfiler: Shutdown
+[2025.12.03-17.32.12:701][330]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.03-17.32.12:742][330]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.03-17.32.12:742][330]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B24E0045C-4264-7AD0-A11C-35862476831B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=6dfdfad24304b926b15d4c99d4445644%7C9769ea8f98344a93848c907a7247e273%7C4fabf526-3ee1-468f-8089-9911ad4b2ba7&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.03-17.32.13:301][330]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.03-17.32.13:301][330]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.12.03-17.32.13:301][330]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.03-17.32.13:301][330]RenderDocPlugin: plugin has been unloaded.
+[2025.12.03-17.32.13:317][330]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.03-17.32.13:317][330]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.03-17.32.13:317][330]LogPakFile: Destroying PakPlatformFile
+[2025.12.03-17.32.13:559][330]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.03-17.32.13:703][330]LogExit: Exiting.
+[2025.12.03-17.32.13:724][330]Log file closed, 12/03/25 11:32:13

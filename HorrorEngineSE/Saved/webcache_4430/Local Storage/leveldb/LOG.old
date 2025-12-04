@@ -1,2 +1,3 @@
-2025/12/03-15:35:02.973 5f48 Creating DB D:/Github/HorrorMvp/HorrorEngineSE/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2025/12/03-15:35:02.982 5f48 Reusing MANIFEST D:/Github/HorrorMvp/HorrorEngineSE/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/03-18:01:45.007 a728 Reusing MANIFEST D:/Github/HorrorMvp/HorrorEngineSE/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/03-18:01:45.008 a728 Recovering log #3
+2025/12/03-18:01:45.009 a728 Reusing old log D:/Github/HorrorMvp/HorrorEngineSE/Saved/webcache_4430\Local Storage\leveldb/000003.log 
